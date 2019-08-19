@@ -7,12 +7,13 @@ class Triangle
     @c = c
   end	
   
-  class TriangleError < StandardError
-  end
-  
   def kind 
     
     
   end
+  class TriangleError < StandardError
+  end
+  
+
   
  end 
