@@ -10,6 +10,7 @@ class Triangle
   def kind 
     if @a <= 0 || @b <= 0 || @c <= 0 
       raise TriangleError
+      elsif
       else 
         if @a == @b && @b == @c
         :equilateral
