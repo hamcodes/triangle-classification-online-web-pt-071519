@@ -14,7 +14,6 @@ class Triangle
         :isosceles
       else
         :scalene
-      TriangleError
       end
    end 
   
