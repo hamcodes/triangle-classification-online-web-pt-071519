@@ -17,13 +17,14 @@ class Triangle
       end
    end 
   
-  def triangle 
+
+  
+  class TriangleError < StandardError
+      def triangle 
     if @a < 0 
       raise TriangleError
   end
 end
-  
-  class TriangleError < StandardError
   end
   
 
