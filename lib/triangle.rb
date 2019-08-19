@@ -1,13 +1,19 @@
 class Triangle
   
-  def initialization(length_one,length_two, length_three)
-  end
-  
-  def kind 
+  def intialize(a, b, c)
+
+   end
+
+   def kind
     :equilateral
     :isosceles
     :scalene
   end
-  
-  
-end
+
+   class TriangleError < StandardError
+    def message
+      "This is not a valid triangle"
+    end
+  end
+
+ end	end
