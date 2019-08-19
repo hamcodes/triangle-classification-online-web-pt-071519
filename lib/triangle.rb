@@ -1,6 +1,6 @@
 class Triangle
-  
   attr_accessor :a, :b, :c
+
   def initialize(a,b,c)
     @a = a
     @b = b
@@ -16,7 +16,10 @@ class Triangle
         :scalene
       end
    end 
-    
+  
+  def triangle 
+    if @a < 0 
+  end
   
   class TriangleError < StandardError
   end
