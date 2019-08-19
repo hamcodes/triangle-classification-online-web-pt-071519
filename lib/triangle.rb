@@ -1,20 +1,9 @@
 class Triangle
   
-  def intialize(a, b, c)
-
-   end
-
-   def kind
-    :equilateral
-    :isosceles
-    :scalene
-  end
-
-   class TriangleError < StandardError
-    def message
-      "This is not a valid triangle"
-    end
-  end
-
- end	
+  attr_accessor :a, :b, :c
+  def initialize(a,b,c)
+    @a = a
+    @b = b
+    @c = c
+  end	
  
