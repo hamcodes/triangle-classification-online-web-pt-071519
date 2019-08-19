@@ -15,8 +15,7 @@ class Triangle
       else
         :scalene
       end
-      if @a < 0 
-        raise TriangleError
+
    end 
   
 
