@@ -20,13 +20,6 @@ class Triangle
 
   
   class TriangleError < StandardError
-      def triangle 
-    if @a < 0 
-      raise TriangleError
-  end
-end
-  end
-  
 
   
  end 
